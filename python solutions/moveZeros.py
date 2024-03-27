@@ -4,6 +4,7 @@ for i in a:
     if i!=0:
         a[j]=i
         j+=1
+        
 for i in range(j,len(a)):
     a[i]=0
 print(a)

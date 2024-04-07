@@ -1,0 +1,2 @@
+
+# print(firstUniqueCharacter(s)) 

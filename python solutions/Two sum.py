@@ -9,12 +9,12 @@
 
 def twoSum(nums,target):
     hashMap={}
-    for i in range(len(nums)):
-        val=target-nums[i]
-        if val not in hashMap:
-            hashMap[nums[i]]=i
+    for index in range(len(nums)):
+        remval=target-nums[index]
+        if remval not in hashMap:
+            hashMap[nums[index]]=index
         else:
-            return [hashMap[val],i]
+            return [hashMap[remval],index]
 
 nums=[3,2,4]
 target=6

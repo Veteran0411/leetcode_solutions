@@ -1,8 +1,6 @@
 def revStr(s):
     l = 0
     h = len(s) - 1
-    global flag
-    flag = 1
     rev = ["0"] * len(s)
     while l <= h:
         if not (ord(s[l]) >= 97 and ord(s[l]) <= 122) or (

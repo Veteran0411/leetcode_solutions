@@ -1,6 +1,6 @@
 import collections
 dic={}
-s="ssomling"
+s="ssomoooling"
 
 # def firstUniqueCharacter(s):
 #     for i in s:
@@ -13,4 +13,14 @@ s="ssomling"
 #     return -1
 # print(firstUniqueCharacter(s)) 
 
-print(dict(collections.Counter(s)))
+
+
+# print(dict(collections.Counter(s)))
+# print(dict(collections.Counter(s)))
+
+def maxOccurance(s):
+    for i in s:
+        dic[i]=dic.get(i,0)+1
+      
+maxOccurance(s)  
+print(max(dic,key=lambda k:dic[k])) 

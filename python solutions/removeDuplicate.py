@@ -5,4 +5,5 @@ for i in range(1,len(a)):
         a[j]=a[i]
         j+=1
 for i in range(j):
-    print(a[i])
+    print(a[i],end=" ")
+

@@ -1,6 +1,5 @@
 def permute(nums):
-    result=[]
-    
+    result=[]  
     #base case
     if (len(nums)==1):
         return [nums[:]]
